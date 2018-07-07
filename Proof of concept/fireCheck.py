@@ -14,7 +14,7 @@ firebase_admin.initialize_app(cred, {
 #As an admin, the app has access to read and write regardless of security rules
 ref = db.reference()
 new_user = ref.child('users').push({
-    'name' : 'Mary Anning',
+    'name' : 'Shruthi',
     'since' : 1800
     })
 
